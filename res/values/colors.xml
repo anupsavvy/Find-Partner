@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="splash_title_color">#F00</color>
+<color name="version_text_color">#888</color>
+<color name="ad_links_color">#F00</color>
+<color name="entry_button_color">#00F</color>
+<color name="example_text_color">#888</color>
+<color name="view_color">#FFF</color>
+<color name="paint_line">#888</color>
+<color name="view_text">#444</color>
+<color name="level">#F00</color>
+<color name="navyblue">#0A0A85</color>
+<color name="pagecolor">#FFF</color>
+<color name="buttontext">#FFF</color>
+</resources>

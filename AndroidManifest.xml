@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.android.joinme"
+      android:versionCode="1"
+      android:versionName="1.0">
+      <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:anyDensity="true" />
+    <application android:label="@string/app_name" android:icon="@drawable/joinme">
+        <activity android:name=".JoinMeBaseActivity"
+                  android:label="@string/app_name">
+        </activity>
+
+    <activity android:name="JoinMeSplashActivity" android:launchMode="standard">
+    <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+    </activity>
+<activity android:name="JoinMeSettingsActivity"></activity>
+<activity android:name="JoinMeCategoriesActivity"></activity>
+<activity android:name="JoinMeAdActivity"></activity>
+<activity android:name="JoinMeReplyActivity"></activity>
+<activity android:name="JoinMeHomeActivity"></activity>
+<activity android:name="JoinMeShowRepliesActivity"></activity>
+</application>
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-sdk android:minSdkVersion="5" /> 
+</manifest> 

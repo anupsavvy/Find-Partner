@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="genders">
+<item>@string/genderneutral</item>
+<item>@string/male</item>
+<item>@string/female</item>
+</string-array>
+
+<string-array name="categories">
+<item>@string/chess</item>
+<item>@string/badminton</item>
+<item>@string/tennis</item>
+<item>@string/pingpong</item>
+<item>@string/squash</item>
+<item>@string/raquet_ball</item>
+<item>@string/basket_ball</item>
+<item>@string/jam</item>
+<item>@string/coffee</item>
+<item>@string/lunch</item>
+<item>@string/dinner</item>
+</string-array>
+
+<string-array name="level">
+<item>@string/beginner</item>
+<item>@string/intermediate</item>
+<item>@string/pro</item>
+</string-array>
+
+</resources>

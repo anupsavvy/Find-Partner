@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation ="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/pagecolor">
+  <TextView android:id="@+id/Splash_Title" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/splash_screen_title"
+		android:textSize="@dimen/splash_title_dimen" android:layout_gravity="center_vertical|center_horizontal"
+		android:gravity="left" android:background="#880000FF"
+		android:textColor="#FFFFFFFF" android:textStyle="bold"
+		android:typeface="serif"></TextView>
+		
+  <Button android:id="@+id/Categories" android:text="@string/categories"
+		android:layout_gravity="center_vertical|center_horizontal" android:textColor="@color/buttontext"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginBottom="10pt" android:gravity="center_vertical|center_horizontal"
+		></Button>
+  <Button android:id="@+id/Replies" android:text="@string/replies"
+		android:layout_gravity="center" android:textColor="@color/buttontext"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginBottom="10pt"></Button>
+  <Button android:id="@+id/My_Profile" android:text="@string/myprofile"
+		android:layout_gravity="center" android:textColor="@color/buttontext"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginBottom="10pt"></Button>
+  <Button android:id="@+id/Help" android:text="@string/help"
+		android:layout_gravity="center" android:textColor="@color/buttontext"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginBottom="10pt"></Button>								
+  
+</LinearLayout>

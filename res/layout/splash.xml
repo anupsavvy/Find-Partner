@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/pagecolor"
+	android:layout_gravity="center">
+	<TextView android:id="@+id/Splash_Title" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/splash_screen_title"
+		android:textSize="@dimen/splash_title_dimen" android:layout_gravity="center_vertical|center_horizontal"
+		android:gravity="left" android:background="#880000FF"
+		android:textColor="#FFFFFFFF" android:textStyle="bold"
+		android:typeface="serif"></TextView>
+
+
+	<TextView android:id="@+id/Signin_Username_TextView"
+		android:text="Username/Email" android:textSize="5pt"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textColor="@color/paint_line" android:layout_marginTop="10pt"></TextView>
+
+	<EditText android:id="@+id/Signin_Username_EditText"
+		android:maxLines="1" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:inputType="textPersonName"></EditText>
+
+	<TextView android:id="@+id/Signin_Password_TextView"
+		android:text="Password" android:textSize="5pt" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textColor="@color/paint_line"></TextView>
+
+	<EditText android:id="@+id/Signin_Password_EditText"
+		android:maxLines="1" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:inputType="textPassword"></EditText>
+
+	<Button android:id="@+id/Singin_Button" android:text="@string/signin"
+		android:layout_gravity="right" android:textColor="@color/buttontext"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+	<TextView android:id="@+id/Signin_LoginProb_TextView"
+		android:textSize="5pt" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></TextView>
+
+
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView android:id="@+id/SignUpText" android:text="@string/signupstring"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="@color/paint_line" android:layout_gravity="center"></TextView>
+		<TextView android:id="@+id/Signup_TextView" android:text="@string/signup"
+			android:clickable="true" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="@color/view_text"
+			android:layout_gravity="center" android:textColorHighlight="@color/navyblue"
+			></TextView>
+	</LinearLayout>
+
+	<TextView android:id="@+id/TextViewVersion"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:textColor="@color/version_text_color" android:text="@string/version"
+		android:textSize="@dimen/version_text_size" android:lineSpacingExtra="@dimen/version_linespace"
+		android:gravity="center" android:layout_gravity="center_vertical|center_horizontal"></TextView>
+
+</LinearLayout>

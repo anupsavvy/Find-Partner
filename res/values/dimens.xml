@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="splash_title_dimen">8pt</dimen>
+<dimen name="version_text_size">5pt</dimen>
+<dimen name="version_linespace">3pt</dimen>
+<dimen name="avatar_size">75px</dimen>
+<dimen name="reply_avatar_size">85px</dimen>
+<dimen name="link_text_size">5pt</dimen>
+<dimen name="example_text_size">5pt</dimen>
+</resources>
